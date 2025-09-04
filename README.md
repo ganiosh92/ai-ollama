@@ -8,6 +8,12 @@ pull ollama mistral
 ````
 
 ## Step-3:
+Install Ollama python library to work with Ollama using python
+```bash
+pip install ollama
+```
+
+## Step-4:
 run the following ```main.py``` file using python
 ```bash
 python main.py
