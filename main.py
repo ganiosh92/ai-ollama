@@ -1,1 +1,3 @@
-import pandas as pd
+import ollama as ol
+
+print("line run successfully")
