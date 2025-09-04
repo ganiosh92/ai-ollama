@@ -1,3 +1,14 @@
-import ollama as ol
+from ollama import chat
+from ollama import ChatResponse
 
-print("line run successfully")
+response = chat(
+                model='llama2', 
+                messages=[{'role': 'user',
+                            'content': 'explain in a sentance what is quantum mechanics?',
+                        },]
+                )
+
+print(response.message.content)
+
+
+
